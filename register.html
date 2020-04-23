@@ -1,0 +1,129 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <style>
+                  .navigation_bar{
+    padding-top: 20px;
+    background-color: rgb(30, 82, 160);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+.navlogo{
+    padding: 0 10px 20px 10px;
+    margin: 30px; 
+    width: 50px; 
+    float: left;
+    margin-left: 3px;
+    margin-bottom: 40px;
+    margin-top: 0px;
+}
+
+.container{
+    margin:auto;
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    box-shadow: 0 12px 12px rgba(0,0,0,0.5);
+    margin:20px 100px 100px 100px;
+}
+.for{
+    padding:20px;
+    margin:100px;
+}
+.form-control{
+    width: 90%;
+  padding: 5px 6px;
+  margin: 8px 8px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.col-sm-2{
+    margin:20px;
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+#b1{
+    position:relative;
+    float:right;
+    margin-left:300px;
+    margin-top:5px;
+    
+}
+#up{
+    display: flex;
+    flex-direction:row;
+    margin-bottom: 8px;
+    
+}
+.lab{
+    margin-top: 10px;
+   margin-left: 10px;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: 700;
+}
+</style>
+
+</head>
+<body>
+    
+    <nav>
+        <div class="navigation_bar"> 
+            <img src="./images/2.png" class="navlogo">
+        </div>
+    </nav>
+      <div class="container">
+    
+          <form id="fom">
+            <div class="form-group row">
+                <label for="pno" class="col-sm-2" >Enter pno</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" placeholder=>
+                </div>
+                <div class="form-group row">
+                    <label for="name" class="col-sm-2" >Enter name</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group row">
+                        <label for="phoneno" class="col-sm-2" >Your phone no.</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control">
+                        </div>
+            <div class="form-group row">
+                <label for="email" class="col-sm-2" >Email</label>
+                <div class="col-sm-10">
+                    <input id="email" type="email" class="form-control">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="password" class="col-sm-2">Enter password</label>
+                <div class="col-sm-10">
+                    <input id="password" type="password" class="form-control">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="password" class="col-sm-2">confirm password</label>
+                <div class="col-sm-10">
+                    <input id="password" type="password" class="form-control">
+                </div>
+            </div>
+            <div id="up">
+            <input type="radio"  class="lab" name="employee" checked value="1">
+<label for="active"  class="lab">Active</label><br>
+<input type="radio" class="lab" name="employee" value="0">
+<label for="inactive"  class="lab">Inactive</label><br>
+            <div >
+                <button id="b1" class="w3-btn w3-indigo w3-round-large w3-hover-blue w3-large">Register</button>
+                </div>
+            </div>
+                
+        </form>
+      </div>
+
+
+
+</body>
+</html>
